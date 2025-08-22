@@ -23,9 +23,9 @@ A FastAPI-based application to upload resumes, store embeddings, and rank candid
 
 `git clone https://github.com/yourusername/resume_tracker.git  
 cd resume_tracker `  
-  
-`pip install -r requirements.txt`
- 2. open in browser `http://127.0.0.1:8000/`  
+    
+`pip install -r requirements.txt`  
+ 2. open in browser `http://127.0.0.1:8000/`    
   
 ## Project Structure  
 resume_tracker/  
