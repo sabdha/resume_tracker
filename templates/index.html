@@ -1,1 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume Ranker</title>
+</head>
+<body>
+  <h2>Upload Resume</h2>
+  <form action="/upload_resume/" enctype="multipart/form-data" method="post">
+    <input type="file" name="file" accept="application/pdf" required>
+    <input type="text" name="candidate_name" placeholder="Candidate Name" required>
+    <button type="submit">Upload</button>
+  </form>
+
+  <h2>Rank Resumes</h2>
+  <form action="/rank/" method="post">
+    <textarea name="job_description" rows="5" cols="50" placeholder="Paste Job Description"></textarea>
+    <input type="number" name="top_k" value="5">
+    <button type="submit">Rank</button>
+  </form>
+</body>
+</html>
 
